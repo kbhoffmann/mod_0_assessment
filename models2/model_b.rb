@@ -1,11 +1,10 @@
-pet =
-  {
-  "type of animal" => "Parakeet bird",
-  "name" => "Chi Chi",
-  "age" => 6,
-  "weight in ounces" => 12.5,
-  "talks" =>true,
-  "flys" => true,
-  "colors" => ["light blue", "white", "black"],
-  "eats" => ["eggs", "bird seed", "fruit", "chicken"]
-  }
+vehicle = {
+  type: "car",
+  make: "Subaru",
+  year: 2019,
+  number_of_doors: 4,
+  automatic_transmission: false,
+  awd: => true,
+  colors_available: ["gray", "white", "black", "red"],
+  upgrades: ["roof rack", "19 in wheels", "leather", "backup camera"]
+}
